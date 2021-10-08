@@ -1,0 +1,4 @@
+---
+collections:
+  - name: servicenow.itsm
+  - name: azure.azcollection

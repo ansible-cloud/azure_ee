@@ -1,0 +1,11 @@
+---
+version: 1
+
+build_arg_defaults:
+  EE_BASE_IMAGE: 'ansible-automation-platform-20-early-access/ee-supported-rhel8'
+
+ansible_config: 'ansible.cfg'
+
+dependencies:
+  galaxy: requirements.yml
+  python: requirements.txt
